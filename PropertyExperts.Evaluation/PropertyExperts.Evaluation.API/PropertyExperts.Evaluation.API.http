@@ -1,0 +1,6 @@
+@PropertyExperts.Evaluation.API_HostAddress = http://localhost:5168
+
+GET {{PropertyExperts.Evaluation.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
