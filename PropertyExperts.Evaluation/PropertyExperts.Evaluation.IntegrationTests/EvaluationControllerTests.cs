@@ -24,7 +24,7 @@ namespace PropertyExperts.Evaluation.Tests.Integration
             request.Add(new StringContent("S12345"), "invoiceNumber");
 
             // Act
-            var response = await client.PostAsync("https://localhost:7190/evaluate", request);
+            var response = await client.PostAsync("https://localhost:7190/api/evaluation/evaluate", request);
             var result = await response.Content.ReadAsStringAsync();
 
             // Assert
