@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "condition": "amount < 1000 AND riskLevel == 'Low'",
+        "Action": "Approve"
+    },
+    {
+        "id": 2,
+        "condition": "amount < 1000 AND riskLevel == 'Low'",
+        "Action": "Approve"
+    }
+]
